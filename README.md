@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on [Flyfarladies](https://www.flyfarladies.com/)
 
-- 💬 Ask me about **ExpresJs, NestJs, GCP**
+- 💬 Ask me about **ExpressJs, NestJs, GCP**
 
 - 📫 How to reach me **mdfaisalahmed025@gmail.com**
 
