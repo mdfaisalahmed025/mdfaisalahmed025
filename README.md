@@ -1,18 +1,27 @@
 <div align="center">
 
-# ⚡ Md Faisal Ahmed
-### **AI & Agentic Engineer · Travel Tech & Backend Specialist**
+<!-- ANIMATED WAVING HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:121316,65:1a1b20,100:ff5e00&height=200&section=header&text=Md%20Faisal%20Ahmed&fontSize=42&fontAlignY=38&fontColor=ffffff&desc=AI%20%26%20Agentic%20Engineer%20%C2%B7%20Travel%20Tech%20Specialist&descAlignY=62&descAlign=50&descSize=18" width="100%" alt="Header Banner" />
 
-Dhaka, Bangladesh 🇧🇩 · [www.mdfaisalahmed.info](https://www.mdfaisalahmed.info)
+<!-- ANIMATED DYNAMIC TYPING SUBTITLE -->
+<a href="https://www.mdfaisalahmed.info">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF5E00&background=12131600&center=true&vCenter=true&width=650&height=45&lines=AI+%26+Agentic+Systems+Engineer;Travel+Tech+%26+GDS+Specialist;Autonomous+LLM+Workflows+%26+Tool+Calling;High-Concurrency+Backend+Architect;IEEE-Published+NLP+Researcher+(98.87%25)" alt="Typing SVG" />
+</a>
 
-<br/>
+<p align="center">
+  📍 Dhaka, Bangladesh 🇧🇩 &nbsp;·&nbsp; 🌐 <a href="https://www.mdfaisalahmed.info"><b>www.mdfaisalahmed.info</b></a> &nbsp;·&nbsp; 💼 <a href="https://linkedin.com/in/mdfaisalahmed025"><b>LinkedIn</b></a>
+</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-www.mdfaisalahmed.info-FF5E00?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.mdfaisalahmed.info)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mdfaisalahmed025-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mdfaisalahmed025)
-[![LeetCode](https://img.shields.io/badge/LeetCode-thenoobfaisal-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/thenoobfaisal/)
-[![IEEE Xplore](https://img.shields.io/badge/IEEE%20Xplore-98.87%25%20NLP%20Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/10269919)
-[![Email](https://img.shields.io/badge/Email-mdfaisalahmed025%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mdfaisalahmed025@gmail.com)
+<!-- ACTION BADGES -->
+<p align="center">
+  <a href="https://www.mdfaisalahmed.info"><img src="https://img.shields.io/badge/Portfolio-www.mdfaisalahmed.info-FF5E00?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/mdfaisalahmed025"><img src="https://img.shields.io/badge/LinkedIn-mdfaisalahmed025-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/u/thenoobfaisal/"><img src="https://img.shields.io/badge/LeetCode-thenoobfaisal-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://ieeexplore.ieee.org/document/10269919"><img src="https://img.shields.io/badge/IEEE%20Xplore-98.87%25%20NLP%20Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE Paper" /></a>
+  <a href="mailto:mdfaisalahmed025@gmail.com"><img src="https://img.shields.io/badge/Email-mdfaisalahmed025%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
+<!-- PROFILE VIEWS -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mdfaisalahmed025&label=Profile%20Views&color=ff5e00&style=flat-square" alt="Profile Views" />
 </p>
@@ -21,15 +30,26 @@ Dhaka, Bangladesh 🇧🇩 · [www.mdfaisalahmed.info](https://www.mdfaisalahmed
 
 </div>
 
-### 👨‍💻 About Me
+### <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="28px" /> About Me
 
-I am an **AI & Agentic Engineer** and **Backend Specialist** currently engineering high-concurrency booking engines and scalable travel tech platforms at **[TripFindy](https://www.mdfaisalahmed.info)**. I specialize in bridging cutting-edge AI research with battle-tested production reality: authoring peer-reviewed NLP research published at **IEEE** (achieving 98.87% accuracy) while building autonomous agentic workflows, multi-turn reasoning pipelines, and enterprise-grade distributed backends.
+I am an **AI & Agentic Engineer** and **Backend Specialist** currently engineering high-concurrency booking engines and scalable travel tech platforms at **[TripFindy](https://www.mdfaisalahmed.info)**. I bridge cutting-edge research with production reality: authoring peer-reviewed NLP research published at **IEEE** (98.87% accuracy) while architecting autonomous agentic workflows, multi-turn reasoning pipelines, and enterprise-grade distributed backends.
 
-- 🚀 **Current Role**: Software Engineer (L1) at **TripFindy** — building scalable travel management platforms, high-concurrency booking engines, and GDS integrations.
-- 🤖 **AI & Agentic Focus**: Engineering autonomous LLM agents, multi-turn reasoning workflows, tool-calling systems, and transformer NLP pipelines.
-- ✈️ **Travel Tech Specialization**: Deep experience with **Sabre**, **Galileo**, and **Amadeus GDS**, NDC & LCC airline APIs, dynamic markup rules, and automated ticketing.
-- 📄 **IEEE Published Researcher**: Published research on Bangla Hate Speech Detection using BERT & GRU (98.87% accuracy) at the 2023 Asian Conference on Innovation in Technology.
-- 🎓 **Education**: B.Sc. in Computer Science & Engineering from **North South University** (First Class Honours).
+```typescript
+const faisalAhmed = {
+  pronouns: "he/him",
+  role: "AI & Agentic Engineer · Travel Tech & Backend Specialist",
+  organization: "TripFindy (Software Engineer L1)",
+  education: "B.Sc. in Computer Science & Engineering @ North South University (First Class Honours)",
+  research: "Published at IEEE (Bangla Hate Speech Detection using BERT & GRU — 98.87% accuracy)",
+  coreExpertise: [
+    "Autonomous LLM Agents, Multi-turn Reasoning & Tool-calling",
+    "Global Distribution Systems (Sabre, Galileo, Amadeus) & NDC / LCC Airline APIs",
+    "High-Concurrency Travel Booking Engines & Microservices (Node.js, NestJS, Python, GCP)"
+  ],
+  currentFocus: "Architecting autonomous travel agents with live tool-calling and real-time PNR ticketing",
+  openTo: ["High-Impact AI / Agentic Roles", "Travel Tech System Architecture", "Production Consulting"]
+};
+```
 
 ---
 
@@ -40,11 +60,11 @@ I am an **AI & Agentic Engineer** and **Backend Specialist** currently engineeri
     <td width="33%" valign="top">
       <h4 align="center">🤖 AI & Agentic Systems</h4>
       <ul>
-        <li>Autonomous LLM Agents & Tool Calling</li>
+        <li>Autonomous LLM Agents & Tool Execution</li>
         <li>Multi-Turn Reasoning & Task Planning</li>
-        <li>RAG (Retrieval-Augmented Generation) Workflows</li>
+        <li>RAG (Retrieval-Augmented Generation)</li>
         <li>Transformers (BERT, RoBERTa, Hugging Face)</li>
-        <li>Deep Learning & Computer Vision (PyTorch, ResNet)</li>
+        <li>Computer Vision (PyTorch, ResNet34)</li>
         <li>High-Accuracy Text Classification & NLP</li>
       </ul>
     </td>
@@ -55,8 +75,8 @@ I am an **AI & Agentic Engineer** and **Backend Specialist** currently engineeri
         <li>LCC & NDC Airline Direct Connect APIs</li>
         <li>High-Concurrency Flight & Hotel Booking Engines</li>
         <li>Automated Ticketing & Fare Rule Processing</li>
-        <li>B2B Travel Agency Portals & B2C Booking Sites</li>
-        <li>Dynamic Markup & Currency Management</li>
+        <li>B2B Agent Portals & B2C Booking Platforms</li>
+        <li>Dynamic Markups & Currency Management</li>
       </ul>
     </td>
     <td width="33%" valign="top">
@@ -66,7 +86,7 @@ I am an **AI & Agentic Engineer** and **Backend Specialist** currently engineeri
         <li>Clean Architecture & Domain-Driven Design</li>
         <li>Google Cloud Platform (GCP) & Docker CI/CD</li>
         <li>Database Schema Design & Query Optimization</li>
-        <li>Payment Gateways (SSLCommerz, bKash, Nagad)</li>
+        <li>Fintech Gateways (SSLCommerz, bKash, Nagad)</li>
         <li>JWT Authentication & Role-Based Access Control</li>
       </ul>
     </td>
@@ -75,7 +95,105 @@ I am an **AI & Agentic Engineer** and **Backend Specialist** currently engineeri
 
 ---
 
+### 🏗️ Architecture & Engineering Deep Dives
+
+<details>
+<summary><b>🛫 Deep Dive: High-Concurrency Travel Booking Engine (GDS / NDC Architecture)</b> <i>(Click to expand)</i></summary>
+<br/>
+
+```
+[B2B / B2C Clients] ──► [API Gateway / Rate Limiting]
+                                │
+       ┌────────────────────────┴────────────────────────┐
+       ▼                                                 ▼
+[Fare Search & Rules Engine]                    [User Auth / JWT & RBAC]
+  ├─ Distributed Cache (Redis)
+  ├─ Dynamic Markup & Currency Conversion
+  │
+  ▼
+[GDS & Direct Connect Aggregator]
+  ├── Sabre GDS (SOAP / REST)
+  ├── Galileo / Travelport GDS
+  ├── Amadeus GDS
+  └── NDC & LCC Airline Direct Connect APIs
+       │
+       ▼
+[Booking & Order Management] ──► [Fintech Payment Gateways]
+  ├─ PNR Creation & Validation     ├── SSLCommerz
+  ├─ Automated Fare Quotation      ├── bKash / Nagad / AmarPay
+  └─ Automated E-Ticket Issuance   └── International Cards
+```
+
+- **Concurrency & Resilience**: Distributed caching with Redis to eliminate redundant GDS API calls, sub-second fare aggregation across multiple suppliers, and exponential backoff retry mechanisms.
+- **Fail-safe Ticketing**: Two-phase commit logic ensuring payment settlement prior to PNR issuance, preventing orphaned tickets or payment discrepancies.
+
+</details>
+
+<details>
+<summary><b>🤖 Deep Dive: Autonomous LLM Agent Workflow (Multi-Turn Tool Execution)</b> <i>(Click to expand)</i></summary>
+<br/>
+
+```
+[User Input / Query]
+       │
+       ▼
+[Task Planner & Intent Classifier]
+  ├─ Conversation Memory (Short-Term & Long-Term Context)
+  ├─ Tool Selection & Schema Validation
+  │
+  ▼
+[Autonomous Execution Loop]
+  ├─ Tool: Live API Integration (Flight / Product / CRM)
+  ├─ Tool: Database Query / RAG Vector Store Retrieval
+  ├─ Tool: Calculation & Negotiation Engine
+  │
+  ▼
+[Self-Reflection & Response Synthesizer]
+  ├─ Output Verification & Constraint Checking
+  └─ Final Grounded Response / Autonomous Transaction
+```
+
+- **Tool Execution & Grounding**: Strict JSON schema contracts with zero-hallucination constraints for real-time transactional actions (e.g., live flight queries, sales negotiation, and database mutation).
+
+</details>
+
+<details>
+<summary><b>🔬 Deep Dive: IEEE-Published NLP Research (98.87% Accuracy)</b> <i>(Click to expand)</i></summary>
+<br/>
+
+- **Publication Title**: *Bangla Hate Speech Detection Using Transformer-Based NLP & Deep Learning*
+- **Conference**: 2023 3rd Asian Conference on Innovation in Technology (IEEE-indexed).
+- **Core Architecture**:
+  - Multilingual transformer embeddings (Fine-tuned BERT) capturing complex Bengali morphological nuances.
+  - Bidirectional Gated Recurrent Units (Bi-GRU) paired with self-attention mechanisms to prioritize toxic sequence markers.
+  - Achieved **98.87% classification accuracy**, outperforming standard baseline architectures.
+- 👉 **[Read on IEEE Xplore](https://ieeexplore.ieee.org/document/10269919)**
+
+</details>
+
+---
+
+### 📡 Live Engineering Radar
+
+```
+🔭 Currently Building : Autonomous AI Travel Agent with multi-turn tool calling and PNR booking capabilities
+⚡ Deeply Exploring   : Multi-Agent Systems (LangGraph, CrewAI), Local LLM Inference (vLLM, Ollama), Small SLM Fine-Tuning
+🎯 System Goal        : Architecting zero-downtime booking microservices capable of 10,000+ queries/minute
+🌱 Reading & Research : Advanced Agentic Patterns, Tool Use benchmarks, and Low-Latency RAG architectures
+```
+
+---
+
 ### 🛠️ Tech Stack & Tooling
+
+<div align="center">
+
+<!-- SKILL ICONS DISPLAY -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,nodejs,nestjs,express,ts,js,gcp,docker,kubernetes,mysql,postgres,mongodb,redis,git,github&theme=dark" alt="Skill Icons" />
+</p>
+
+</div>
 
 <div align="left">
 
@@ -113,7 +231,7 @@ I am an **AI & Agentic Engineer** and **Backend Specialist** currently engineeri
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-#### ☁️ Cloud, DevOps & Architecture
+#### ☁️ Cloud, DevOps & Security
 ![Google Cloud Platform](https://img.shields.io/badge/Google%20Cloud%20(GCP)-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
@@ -186,6 +304,20 @@ I am an **AI & Agentic Engineer** and **Backend Specialist** currently engineeri
 
 ---
 
+### 🐍 GitHub Contribution Snake Animation
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mdfaisalahmed025/mdfaisalahmed025/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mdfaisalahmed025/mdfaisalahmed025/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/mdfaisalahmed025/mdfaisalahmed025/output/github-contribution-grid-snake-dark.svg" width="100%">
+</picture>
+
+</div>
+
+---
+
 ### 📊 GitHub Activity & Statistics
 
 <div align="center">
@@ -215,5 +347,8 @@ I am an **AI & Agentic Engineer** and **Backend Specialist** currently engineeri
 <br/>
 
 *💬 Open for AI & Agentic roles, Travel Tech architecture consultations, and scalable backend engineering opportunities.*
+
+<!-- ANIMATED WAVING FOOTER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:121316,65:1a1b20,100:ff5e00&height=100&section=footer" width="100%" alt="Footer Banner" />
 
 </div>
