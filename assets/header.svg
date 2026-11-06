@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="320">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0d11" />
+      <stop offset="50%" stop-color="#121318" />
+      <stop offset="100%" stop-color="#181922" />
+    </linearGradient>
+
+    <!-- Orange Glow Gradients -->
+    <radialGradient id="glowTopRight" cx="85%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#ff5e00" stop-opacity="0.28" />
+      <stop offset="50%" stop-color="#ea580c" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#0c0d11" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowBottomLeft" cx="15%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#ff7a1a" stop-opacity="0.16" />
+      <stop offset="60%" stop-color="#121318" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Linear Accent for Text -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="70%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#ffb088" />
+    </linearGradient>
+
+    <linearGradient id="badgeBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff5e00" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#ff9900" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.92); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes orbit {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 400; }
+      }
+      
+      .pulsing-dot { animation: pulse 2.5s infinite ease-in-out; }
+      .floating-group { animation: float 6s infinite ease-in-out; }
+      .orbit-line { stroke-dasharray: 8 12; animation: orbit 25s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bgGrad)" stroke="#22242e" stroke-width="1.5" />
+  
+  <!-- Ambient Radial Glows -->
+  <rect width="1200" height="320" rx="16" fill="url(#glowTopRight)" />
+  <rect width="1200" height="320" rx="16" fill="url(#glowBottomLeft)" />
+
+  <!-- Background Grid Pattern -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="0.75">
+    <line x1="60" y1="0" x2="60" y2="320" />
+    <line x1="180" y1="0" x2="180" y2="320" />
+    <line x1="300" y1="0" x2="300" y2="320" />
+    <line x1="420" y1="0" x2="420" y2="320" />
+    <line x1="540" y1="0" x2="540" y2="320" />
+    <line x1="660" y1="0" x2="660" y2="320" />
+    <line x1="780" y1="0" x2="780" y2="320" />
+    <line x1="900" y1="0" x2="900" y2="320" />
+    <line x1="1020" y1="0" x2="1020" y2="320" />
+    <line x1="1140" y1="0" x2="1140" y2="320" />
+
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="220" x2="1200" y2="220" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+  </g>
+
+  <!-- Left Content -->
+  <g transform="translate(60, 48)">
+    <!-- Status Badge -->
+    <rect width="390" height="28" rx="14" fill="#ff5e00" fill-opacity="0.10" stroke="url(#badgeBorder)" stroke-width="1" />
+    <circle cx="16" cy="14" r="4.5" fill="#10b981" class="pulsing-dot" />
+    <text x="30" y="18" fill="#10b981" font-size="11" font-weight="700" letter-spacing="0.06em" class="mono">AVAILABLE FOR ROLES &amp; ARCHITECTURE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="80" fill="url(#titleGrad)" font-size="44" font-weight="800" letter-spacing="-0.02em" class="sans">Md Faisal Ahmed</text>
+
+    <!-- Role Subtitle -->
+    <text x="0" y="114" fill="#ff6b1a" font-size="20" font-weight="600" letter-spacing="-0.01em" class="sans">
+      AI &amp; Agentic Engineer <tspan fill="#646672">·</tspan> Travel Tech &amp; Backend Specialist
+    </text>
+
+    <!-- Description -->
+    <text x="0" y="146" fill="#9da1b2" font-size="14.5" font-weight="400" class="sans">
+      Architecting autonomous LLM agents, GDS booking engines (Sabre · Galileo · Amadeus),
+    </text>
+    <text x="0" y="168" fill="#9da1b2" font-size="14.5" font-weight="400" class="sans">
+      and scalable production microservices with IEEE-published research rigor.
+    </text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 198)">
+      <!-- Pill 1 -->
+      <g>
+        <rect width="180" height="30" rx="8" fill="#1a1b24" stroke="#2e303e" stroke-width="1" />
+        <text x="14" y="19" fill="#ff8a3d" font-size="12" font-weight="600" class="sans">🤖 Autonomous Agents</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(192, 0)">
+        <rect width="210" height="30" rx="8" fill="#1a1b24" stroke="#2e303e" stroke-width="1" />
+        <text x="14" y="19" fill="#38bdf8" font-size="12" font-weight="600" class="sans">✈️ Sabre · Galileo · Amadeus</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(414, 0)">
+        <rect width="190" height="30" rx="8" fill="#1a1b24" stroke="#2e303e" stroke-width="1" />
+        <text x="14" y="19" fill="#4ade80" font-size="12" font-weight="600" class="sans">⚙️ NestJS · Python · GCP</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(616, 0)">
+        <rect width="195" height="30" rx="8" fill="#1a1b24" stroke="#2e303e" stroke-width="1" />
+        <text x="14" y="19" fill="#fbbf24" font-size="12" font-weight="600" class="sans">📄 IEEE Published (98.87%)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Side Visual Diagram (Travel Tech + Agentic Network Art) -->
+  <g transform="translate(930, 140)" class="floating-group">
+    <!-- Outer Glow Orbit -->
+    <circle cx="70" cy="20" r="110" fill="none" stroke="#ff5e00" stroke-opacity="0.18" stroke-width="1.5" class="orbit-line" />
+    <circle cx="70" cy="20" r="75" fill="none" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="4 8" />
+
+    <!-- Connecting Pathway Lines -->
+    <path d="M 0 20 Q 40 -40, 70 20 T 140 20" fill="none" stroke="#ff7a1a" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+    <path d="M 30 70 Q 70 10, 110 -30" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+
+    <!-- Central Hub: Autonomous LLM Agent Core -->
+    <circle cx="70" cy="20" r="28" fill="#181924" stroke="#ff5e00" stroke-width="2.5" filter="url(#glow)" />
+    <text x="70" y="25" fill="#ffffff" font-size="14" font-weight="800" text-anchor="middle" class="sans">AI</text>
+
+    <!-- Node 1: GDS Booking Engine (Top Left) -->
+    <g transform="translate(0, -35)">
+      <circle cx="0" cy="0" r="18" fill="#13141d" stroke="#38bdf8" stroke-width="1.8" />
+      <text x="0" y="4" fill="#38bdf8" font-size="10" font-weight="700" text-anchor="middle" class="mono">GDS</text>
+    </g>
+
+    <!-- Node 2: Tools & Reasoning (Top Right) -->
+    <g transform="translate(135, -25)">
+      <circle cx="0" cy="0" r="18" fill="#13141d" stroke="#4ade80" stroke-width="1.8" />
+      <text x="0" y="4" fill="#4ade80" font-size="10" font-weight="700" text-anchor="middle" class="mono">API</text>
+    </g>
+
+    <!-- Node 3: Cloud & DB (Bottom Right) -->
+    <g transform="translate(130, 75)">
+      <circle cx="0" cy="0" r="18" fill="#13141d" stroke="#fbbf24" stroke-width="1.8" />
+      <text x="0" y="4" fill="#fbbf24" font-size="9" font-weight="700" text-anchor="middle" class="mono">GCP</text>
+    </g>
+
+    <!-- Node 4: NLP Research (Bottom Left) -->
+    <g transform="translate(10, 80)">
+      <circle cx="0" cy="0" r="18" fill="#13141d" stroke="#f43f5e" stroke-width="1.8" />
+      <text x="0" y="4" fill="#f43f5e" font-size="9" font-weight="700" text-anchor="middle" class="mono">NLP</text>
+    </g>
+
+    <!-- Little Signal Packets (Pulsing dots along network) -->
+    <circle cx="35" cy="-8" r="3" fill="#ff7a1a">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="102" cy="-2" r="3" fill="#4ade80">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="100" cy="48" r="3" fill="#fbbf24">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="40" cy="50" r="3" fill="#f43f5e">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>

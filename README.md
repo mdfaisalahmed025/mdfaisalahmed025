@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- ANIMATED WAVING HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:121316,65:1a1b20,100:ff5e00&height=200&section=header&text=Md%20Faisal%20Ahmed&fontSize=42&fontAlignY=38&fontColor=ffffff&desc=AI%20%26%20Agentic%20Engineer%20%C2%B7%20Travel%20Tech%20Specialist&descAlignY=62&descAlign=50&descSize=18" width="100%" alt="Header Banner" />
+<!-- HERO BANNER -->
+<a href="https://www.mdfaisalahmed.info">
+  <img src="https://raw.githubusercontent.com/mdfaisalahmed025/mdfaisalahmed025/Master/assets/header.svg" width="100%" alt="Md Faisal Ahmed — AI & Agentic Engineer · Travel Tech Specialist" />
+</a>
 
 <!-- ANIMATED DYNAMIC TYPING SUBTITLE -->
 <a href="https://www.mdfaisalahmed.info">
@@ -348,7 +350,9 @@ const faisalAhmed = {
 
 *💬 Open for AI & Agentic roles, Travel Tech architecture consultations, and scalable backend engineering opportunities.*
 
-<!-- ANIMATED WAVING FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:121316,65:1a1b20,100:ff5e00&height=100&section=footer" width="100%" alt="Footer Banner" />
+<!-- FOOTER BANNER -->
+<a href="https://www.mdfaisalahmed.info">
+  <img src="https://raw.githubusercontent.com/mdfaisalahmed025/mdfaisalahmed025/Master/assets/footer.svg" width="100%" alt="Footer Banner" />
+</a>
 
 </div>
